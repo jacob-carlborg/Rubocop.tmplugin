@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3CDD231B063F8000A90DEF /* buffer.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3CDD221B063F8000A90DEF /* buffer.dylib */; };
+		7A3CDD251B063FC900A90DEF /* marks.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3CDD241B063FC900A90DEF /* marks.o */; };
+		7A3CDD271B067F1600A90DEF /* OakTextView.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3CDD261B067F1600A90DEF /* OakTextView.dylib */; };
 		7AABD96F1B013A5A00BE4ACB /* Rubocop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AABD96E1B013A5A00BE4ACB /* Rubocop.swift */; };
+		7AC7B88A1B04E59F00F0A466 /* MBSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7B8891B04E59F00F0A466 /* MBSwizzler.swift */; };
+		7AC7B88C1B04FC9A00F0A466 /* TextMate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7B88B1B04FC9A00F0A466 /* TextMate.mm */; };
+		7AC7B88F1B05052600F0A466 /* scope.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC7B88E1B05052600F0A466 /* scope.dylib */; };
+		7AC7B8911B05053800F0A466 /* settings.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC7B8901B05053800F0A466 /* settings.dylib */; };
+		7AC7B8931B05056A00F0A466 /* document.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC7B8921B05056A00F0A466 /* document.dylib */; };
+		7AC7B8951B05057E00F0A466 /* io.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC7B8941B05057E00F0A466 /* io.dylib */; };
+		7AD847D21B077D1E002D35D5 /* bundles.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD847D11B077D1E002D35D5 /* bundles.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -22,10 +32,23 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		7A3CDD1E1B063C1C00A90DEF /* basic_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = basic_tree.h; sourceTree = "<group>"; };
+		7A3CDD1F1B063D2600A90DEF /* indexed_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indexed_map.h; sourceTree = "<group>"; };
+		7A3CDD221B063F8000A90DEF /* buffer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = buffer.dylib; path = ../../textmate/build/Frameworks/buffer/buffer.dylib; sourceTree = "<group>"; };
+		7A3CDD241B063FC900A90DEF /* marks.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = marks.o; path = ../../textmate/build/Frameworks/buffer/src/marks.o; sourceTree = "<group>"; };
+		7A3CDD261B067F1600A90DEF /* OakTextView.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = OakTextView.dylib; path = ../../textmate/build/Frameworks/OakTextView/OakTextView.dylib; sourceTree = "<group>"; };
 		7AABD9631B013A3A00BE4ACB /* Rubocop.tmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rubocop.tmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AABD9671B013A3A00BE4ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AABD96D1B013A5A00BE4ACB /* Rubocop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rubocop-Bridging-Header.h"; sourceTree = "<group>"; };
 		7AABD96E1B013A5A00BE4ACB /* Rubocop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rubocop.swift; sourceTree = "<group>"; };
+		7AC7B8891B04E59F00F0A466 /* MBSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBSwizzler.swift; sourceTree = "<group>"; };
+		7AC7B88B1B04FC9A00F0A466 /* TextMate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TextMate.mm; sourceTree = "<group>"; };
+		7AC7B88D1B04FCD300F0A466 /* TextMate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = TextMate.h; path = ../TextMate.h; sourceTree = "<group>"; };
+		7AC7B88E1B05052600F0A466 /* scope.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = scope.dylib; path = ../../textmate/build/Frameworks/scope/scope.dylib; sourceTree = "<group>"; };
+		7AC7B8901B05053800F0A466 /* settings.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = settings.dylib; path = ../../textmate/build/Frameworks/settings/settings.dylib; sourceTree = "<group>"; };
+		7AC7B8921B05056A00F0A466 /* document.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = document.dylib; path = ../../textmate/build/Frameworks/document/document.dylib; sourceTree = "<group>"; };
+		7AC7B8941B05057E00F0A466 /* io.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = io.dylib; path = ../../textmate/build/Frameworks/io/io.dylib; sourceTree = "<group>"; };
+		7AD847D11B077D1E002D35D5 /* bundles.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = bundles.dylib; path = ../../textmate/build/Frameworks/bundles/bundles.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3CDD271B067F1600A90DEF /* OakTextView.dylib in Frameworks */,
+				7A3CDD251B063FC900A90DEF /* marks.o in Frameworks */,
+				7AC7B8931B05056A00F0A466 /* document.dylib in Frameworks */,
+				7A3CDD231B063F8000A90DEF /* buffer.dylib in Frameworks */,
+				7AD847D21B077D1E002D35D5 /* bundles.dylib in Frameworks */,
+				7AC7B88F1B05052600F0A466 /* scope.dylib in Frameworks */,
+				7AC7B8951B05057E00F0A466 /* io.dylib in Frameworks */,
+				7AC7B8911B05053800F0A466 /* settings.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,19 @@
 				7AABD9661B013A3A00BE4ACB /* Supporting Files */,
 				7AABD96E1B013A5A00BE4ACB /* Rubocop.swift */,
 				7AABD96D1B013A5A00BE4ACB /* Rubocop-Bridging-Header.h */,
+				7AC7B8891B04E59F00F0A466 /* MBSwizzler.swift */,
+				7AC7B88D1B04FCD300F0A466 /* TextMate.h */,
+				7AC7B88B1B04FC9A00F0A466 /* TextMate.mm */,
+				7A3CDD1E1B063C1C00A90DEF /* basic_tree.h */,
+				7A3CDD1F1B063D2600A90DEF /* indexed_map.h */,
+				7A3CDD241B063FC900A90DEF /* marks.o */,
+				7A3CDD221B063F8000A90DEF /* buffer.dylib */,
+				7AC7B8921B05056A00F0A466 /* document.dylib */,
+				7AC7B8941B05057E00F0A466 /* io.dylib */,
+				7AC7B88E1B05052600F0A466 /* scope.dylib */,
+				7AC7B8901B05053800F0A466 /* settings.dylib */,
+				7AD847D11B077D1E002D35D5 /* bundles.dylib */,
+				7A3CDD261B067F1600A90DEF /* OakTextView.dylib */,
 			);
 			path = Rubocop;
 			sourceTree = "<group>";
@@ -140,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC7B88A1B04E59F00F0A466 /* MBSwizzler.swift in Sources */,
 				7AABD96F1B013A5A00BE4ACB /* Rubocop.swift in Sources */,
+				7AC7B88C1B04FC9A00F0A466 /* TextMate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +273,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = Rubocop/Info.plist;
 				INSTALL_PATH = "/Users/doob/Library/Application Support/TextMate/PlugIns";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/doob/development/xcode/textmate/build/Frameworks/scope,
+					/Users/doob/development/xcode/textmate/build/Frameworks/settings,
+					/Users/doob/development/xcode/textmate/build/Frameworks/document,
+					/Users/doob/development/xcode/textmate/build/Frameworks/io,
+					/Users/doob/development/xcode/textmate/build/Frameworks/buffer,
+					/Users/doob/development/xcode/textmate/build/Frameworks/OakTextView,
+					/Users/doob/development/xcode/textmate/build/Frameworks/bundles,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rubocop/Rubocop-Bridging-Header.h";
@@ -244,9 +304,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = Rubocop/Info.plist;
 				INSTALL_PATH = "/Users/doob/Library/Application Support/TextMate/PlugIns";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/doob/development/xcode/textmate/build/Frameworks/scope,
+					/Users/doob/development/xcode/textmate/build/Frameworks/settings,
+					/Users/doob/development/xcode/textmate/build/Frameworks/document,
+					/Users/doob/development/xcode/textmate/build/Frameworks/io,
+					/Users/doob/development/xcode/textmate/build/Frameworks/buffer,
+					/Users/doob/development/xcode/textmate/build/Frameworks/OakTextView,
+					/Users/doob/development/xcode/textmate/build/Frameworks/bundles,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rubocop/Rubocop-Bridging-Header.h";
